@@ -1,0 +1,37 @@
+{
+  "name": "Ledger",
+  "identifier": "com.qiaoborui.ledger.source",
+  "subtitle": "本地 Beancount 记账",
+  "description": "Ledger iOS App 的 SideStore / AltStore 源。添加一次地址，以后在 SideStore 里直接升级。",
+  "iconURL": "https://raw.githubusercontent.com/qiaoborui/beancount-ledger-releases/main/sidestore/icon.png",
+  "website": "https://github.com/qiaoborui/beancount-ledger-releases",
+  "tintColor": "#CF7A52",
+  "featuredApps": [
+    "com.qiaoborui.ledger.mobile"
+  ],
+  "nsfw": false,
+  "apps": [
+    {
+      "name": "Ledger",
+      "bundleIdentifier": "com.qiaoborui.ledger.mobile",
+      "developerName": "qiaoborui",
+      "subtitle": "本地 Beancount 记账",
+      "localizedDescription": "完全在手机上运行的 Beancount 账本：内置 Go 引擎负责查询和编辑，内置 CPython + Beancount 在写入前校验，不需要服务器。支持快速记账、支付宝 / 微信等账单导入、账户与净资产趋势、分析报表、事件标签、账本助手，以及可选的 Git 同步。金额受 Face ID / 密码保护。",
+      "iconURL": "https://raw.githubusercontent.com/qiaoborui/beancount-ledger-releases/main/sidestore/icon.png",
+      "tintColor": "#CF7A52",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "拍摄票据或账单照片，交给账本助手识别记账。",
+          "NSFaceIDUsageDescription": "使用 Face ID 解锁受保护的账本金额和财务数据。"
+        }
+      }
+    }
+  ],
+  "news": []
+}

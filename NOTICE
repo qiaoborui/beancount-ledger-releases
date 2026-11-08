@@ -1,0 +1,25 @@
+Ledger (iOS app of Beancount Ledger Web)
+https://github.com/qiaoborui/beancount-ledger-web
+
+The IPA files published here embed the following third-party components.
+Each remains under its own license and copyright notices; the license texts
+ship inside the app bundle under python/app_packages/licenses/.
+
+- Beancount 3.2.3, copyright Martin Blais and contributors: GPL-2.0-only.
+  Source: https://pypi.org/project/beancount/3.2.3/
+- CPython 3.14 from BeeWare Python-Apple-support 3.14-b11: Python Software
+  Foundation License and the notices in the bundled LICENSE.txt. The BeeWare
+  build scripts are MIT.
+  Source: https://github.com/beeware/Python-Apple-support/tree/3.14-b11
+- regex 2025.11.3, copyright Matthew Barnett and contributors:
+  Apache-2.0 AND CNRI-Python.
+  Source: https://pypi.org/project/regex/2025.11.3/
+- go-git v5.16.5: Apache-2.0, and its transitive Go dependencies as pinned
+  in server/go.mod and server/go.sum of the source repository.
+  Source: https://github.com/go-git/go-git/tree/v5.16.5
+
+Known licensing issue: GPL-2.0-only (Beancount) and Apache-2.0 (regex,
+go-git) impose incompatible conditions on distribution of a combined work,
+and the notice audit of the bundled standard-library and Go dependencies is
+not complete. See App/LedgerMobile/Runtime/THIRD_PARTY.md in the source
+repository for details.
