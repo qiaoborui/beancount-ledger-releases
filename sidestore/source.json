@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.1.1",
+          "buildVersion": "57",
+          "date": "2026-11-09T00:54:35Z",
+          "localizedDescription": "## 修复\n- 账本助手回答时，页面会一直跟到最新内容；往上翻看或点开工具、思考过程时停止跟随，回到底部、点「回到底部」或发新问题后恢复（#620）\n- 工具调用默认折叠成一行摘要，正在运行的调用显示在摘要下面，点开可看每一次调用（#620）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.1.1/LedgerMobile-1.1.1-57-SideStore.ipa",
+          "size": 36692110,
+          "sha256": "6907046e6dbf26a5d180351fa45969fd41e8226ee692f20709c74cfc90961930",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.1.0",
           "buildVersion": "56",
           "date": "2026-11-09T00:11:14Z",
@@ -52,11 +62,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.1.0",
-      "versionDate": "2026-11-09T00:11:14Z",
-      "versionDescription": "## 新功能\n- 账本助手的回答边生成边显示；思考过程折叠为「思考了 N 秒」，可以展开；每次调用工具都显示进行中/完成/失败、耗时、参数和结果（#613、#615）\n- 停止回答时，已经生成的内容会保留，标记「已停止」，下一问可以接着问（#613、#615）\n- 回答可以复制、分享、重新生成；问题可以编辑后重新发送。之前的每个版本都会保留，用 ‹ N/M › 切换（#617）\n- 对话可以重命名、置顶、搜索、以纯文本分享，列表按日期分组；每个对话会各自保留还没发出的文字（#614）\n- 快速切换栏显示上下文用量；长对话接近上限时，会自动把较早的轮次压缩成摘要，再继续回答（#615、#616）\n\n## 改进\n- 回车发送，Shift-Return 换行；往上翻看时不会被拉回底部，另有「回到底部」按钮（#614）\n- 助手的介绍和设置改为「改动先进草稿，点 写入账本 并通过校验后才写入」，不再写成只读（#614）\n\n改账仍然需要你确认：先出草稿和改动卡片，点「写入账本」并通过校验后才会写入。",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.1.0/LedgerMobile-1.1.0-56-SideStore.ipa",
-      "size": 36687780
+      "version": "1.1.1",
+      "versionDate": "2026-11-09T00:54:35Z",
+      "versionDescription": "## 修复\n- 账本助手回答时，页面会一直跟到最新内容；往上翻看或点开工具、思考过程时停止跟随，回到底部、点「回到底部」或发新问题后恢复（#620）\n- 工具调用默认折叠成一行摘要，正在运行的调用显示在摘要下面，点开可看每一次调用（#620）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.1.1/LedgerMobile-1.1.1-57-SideStore.ipa",
+      "size": 36692110
     }
   ],
   "news": []
