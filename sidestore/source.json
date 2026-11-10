@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.2.0",
+          "buildVersion": "58",
+          "date": "2026-11-10T10:07:17Z",
+          "localizedDescription": "## 新增\n- 概览页新增「支出趋势」：按月显示近 6 / 12 个月支出，标出已结束月份的均值；当月未过完时用虚线框显示按当前节奏估算的月末支出，点柱子可看该月金额与均值的差距，「查看该月」跳到那个月（#625）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.2.0/LedgerMobile-1.2.0-58-SideStore.ipa",
+          "size": 36738492,
+          "sha256": "d95f573f3eee7d64fe43c691472a0563b34ca5c842af14115685e96e9cdd13a1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.1.1",
           "buildVersion": "57",
           "date": "2026-11-09T00:54:35Z",
@@ -62,11 +72,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.1.1",
-      "versionDate": "2026-11-09T00:54:35Z",
-      "versionDescription": "## 修复\n- 账本助手回答时，页面会一直跟到最新内容；往上翻看或点开工具、思考过程时停止跟随，回到底部、点「回到底部」或发新问题后恢复（#620）\n- 工具调用默认折叠成一行摘要，正在运行的调用显示在摘要下面，点开可看每一次调用（#620）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.1.1/LedgerMobile-1.1.1-57-SideStore.ipa",
-      "size": 36692110
+      "version": "1.2.0",
+      "versionDate": "2026-11-10T10:07:17Z",
+      "versionDescription": "## 新增\n- 概览页新增「支出趋势」：按月显示近 6 / 12 个月支出，标出已结束月份的均值；当月未过完时用虚线框显示按当前节奏估算的月末支出，点柱子可看该月金额与均值的差距，「查看该月」跳到那个月（#625）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.2.0/LedgerMobile-1.2.0-58-SideStore.ipa",
+      "size": 36738492
     }
   ],
   "news": []
