@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.3",
+          "buildVersion": "10403",
+          "date": "2026-11-11T12:17:49Z",
+          "localizedDescription": "- AI 开账改为分四步引导：资金账户、待还款项、收入分类、支出分类，每次只问一件事，并尽量给出可点选的选项；提前说过的内容会自动跳过（#642）\n- AI 开账顶部新增进度条，显示当前步骤和已整理的账户、分类数量；账本结构改为点开查看的面板，不再挤占对话空间（#642）\n- 修复用 SideStore 安装时报 appIdName 无效、无法安装的问题（#644）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.3/LedgerMobile-1.4.3-10403-SideStore.ipa",
+          "size": 37491245,
+          "sha256": "ecbf64e6b0febeb824c6cd150853850ab522f322c0edecc12b9666600667ba7d",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.1",
           "buildVersion": "62",
           "date": "2026-11-11T10:30:21Z",
@@ -112,11 +122,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.1",
-      "versionDate": "2026-11-11T10:30:21Z",
-      "versionDescription": "- AI 开账改为分四步引导：资金账户、待还款项、收入分类、支出分类，每次只问一件事，并尽量给出可点选的选项；提前说过的内容会自动跳过（#642）\n- AI 开账顶部新增进度条，显示当前步骤和已整理的账户、分类数量；账本结构改为点开查看的面板，不再挤占对话空间（#642）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.1/LedgerMobile-1.4.1-62-SideStore.ipa",
-      "size": 37491255
+      "version": "1.4.3",
+      "versionDate": "2026-11-11T12:17:49Z",
+      "versionDescription": "- AI 开账改为分四步引导：资金账户、待还款项、收入分类、支出分类，每次只问一件事，并尽量给出可点选的选项；提前说过的内容会自动跳过（#642）\n- AI 开账顶部新增进度条，显示当前步骤和已整理的账户、分类数量；账本结构改为点开查看的面板，不再挤占对话空间（#642）\n- 修复用 SideStore 安装时报 appIdName 无效、无法安装的问题（#644）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.3/LedgerMobile-1.4.3-10403-SideStore.ipa",
+      "size": 37491245
     }
   ],
   "news": []
