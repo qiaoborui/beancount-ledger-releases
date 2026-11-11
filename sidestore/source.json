@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.7",
+          "buildVersion": "10407",
+          "date": "2026-11-11T17:31:56Z",
+          "localizedDescription": "## 改进\n- 账本助手每次回答的思考和工具调用合成一行摘要，默认折叠；展开可按顺序查看每一步和工具结果（#657）\n## 修复\n- 修复账本助手回答较短时整页内容上下弹跳的问题（#657）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.7/LedgerMobile-1.4.7-10407-SideStore.ipa",
+          "size": 37623798,
+          "sha256": "46fb474eced3825d3fb3a211fe70a6bdb8ea662865d60ef720d280d744c2c618",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.6",
           "buildVersion": "10406",
           "date": "2026-11-11T17:01:57Z",
@@ -152,11 +162,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.6",
-      "versionDate": "2026-11-11T17:01:57Z",
-      "versionDescription": "## 修复\n- 修复账本助手连续调用工具时页面上下闪烁、跟不住最新输出的问题；正在运行的工具和思考改为显示在底部固定的一行「当前活动」（#656）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.6/LedgerMobile-1.4.6-10406-SideStore.ipa",
-      "size": 37614967
+      "version": "1.4.7",
+      "versionDate": "2026-11-11T17:31:56Z",
+      "versionDescription": "## 改进\n- 账本助手每次回答的思考和工具调用合成一行摘要，默认折叠；展开可按顺序查看每一步和工具结果（#657）\n## 修复\n- 修复账本助手回答较短时整页内容上下弹跳的问题（#657）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.7/LedgerMobile-1.4.7-10407-SideStore.ipa",
+      "size": 37623798
     }
   ],
   "news": []
