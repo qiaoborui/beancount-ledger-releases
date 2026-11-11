@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.1",
+          "buildVersion": "62",
+          "date": "2026-11-11T10:30:21Z",
+          "localizedDescription": "- AI 开账改为分四步引导：资金账户、待还款项、收入分类、支出分类，每次只问一件事，并尽量给出可点选的选项；提前说过的内容会自动跳过（#642）\n- AI 开账顶部新增进度条，显示当前步骤和已整理的账户、分类数量；账本结构改为点开查看的面板，不再挤占对话空间（#642）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.1/LedgerMobile-1.4.1-62-SideStore.ipa",
+          "size": 37491255,
+          "sha256": "df91ff998516ca8a9d176a26a80f0fbd6f381f00fc9a537c039c3d1660a81ed1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.0",
           "buildVersion": "61",
           "date": "2026-11-11T09:17:13Z",
@@ -102,11 +112,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.0",
-      "versionDate": "2026-11-11T09:17:13Z",
-      "versionDescription": "## 新功能\n- AI 开账：新建账本时直接和账本助手对话，说出你的账户、余额和收支分类，它会整理出开账方案；确认后才创建账本。没配置模型时会先引导配置，也可以随时改用手动开账（#638）\n- 首页可以自定义：在概览右上角「自定义首页」或 设置 → 首页模块 里选择显示哪些模块、调整顺序（#636）\n- 首页新增模块：信用卡待还（欠款、还款日和剩余天数，临近还款日会提醒）、商户排行、收入构成、资产与负债、币种分布（#636）\n\n## 改进\n- 本期指标新增支出同比、收入同比；本期结余与收支合并为一个模块（#636）\n- 新建账本支持多币种：外币账户的支出和收入可以正常记入分类（#638）\n- 期初余额按精确小数写入，不再有浮点误差（#638）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.0/LedgerMobile-1.4.0-61-SideStore.ipa",
-      "size": 37470078
+      "version": "1.4.1",
+      "versionDate": "2026-11-11T10:30:21Z",
+      "versionDescription": "- AI 开账改为分四步引导：资金账户、待还款项、收入分类、支出分类，每次只问一件事，并尽量给出可点选的选项；提前说过的内容会自动跳过（#642）\n- AI 开账顶部新增进度条，显示当前步骤和已整理的账户、分类数量；账本结构改为点开查看的面板，不再挤占对话空间（#642）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.1/LedgerMobile-1.4.1-62-SideStore.ipa",
+      "size": 37491255
     }
   ],
   "news": []
