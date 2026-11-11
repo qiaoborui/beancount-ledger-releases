@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.8",
+          "buildVersion": "10408",
+          "date": "2026-11-11T18:43:05Z",
+          "localizedDescription": "## 改进\n- 账本助手改为全屏页面，往上翻对话时不会再一下滑就关掉，只能点右上角关闭（#659）\n- 账本助手的上下文用量按模型列表里提供的真实上下文长度计算，不再一律按 128k；自动压缩也按这个长度触发（#658）\n## 修复\n- 修复账本助手回答时页面上下弹跳的问题（#660）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.8/LedgerMobile-1.4.8-10408-SideStore.ipa",
+          "size": 37626193,
+          "sha256": "703e6b8d825b47fdc5fab92d900c7891ee1ff1e8896bcb4c62e9045d88a88f6c",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.7",
           "buildVersion": "10407",
           "date": "2026-11-11T17:31:56Z",
@@ -162,11 +172,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.7",
-      "versionDate": "2026-11-11T17:31:56Z",
-      "versionDescription": "## 改进\n- 账本助手每次回答的思考和工具调用合成一行摘要，默认折叠；展开可按顺序查看每一步和工具结果（#657）\n## 修复\n- 修复账本助手回答较短时整页内容上下弹跳的问题（#657）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.7/LedgerMobile-1.4.7-10407-SideStore.ipa",
-      "size": 37623798
+      "version": "1.4.8",
+      "versionDate": "2026-11-11T18:43:05Z",
+      "versionDescription": "## 改进\n- 账本助手改为全屏页面，往上翻对话时不会再一下滑就关掉，只能点右上角关闭（#659）\n- 账本助手的上下文用量按模型列表里提供的真实上下文长度计算，不再一律按 128k；自动压缩也按这个长度触发（#658）\n## 修复\n- 修复账本助手回答时页面上下弹跳的问题（#660）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.8/LedgerMobile-1.4.8-10408-SideStore.ipa",
+      "size": 37626193
     }
   ],
   "news": []
