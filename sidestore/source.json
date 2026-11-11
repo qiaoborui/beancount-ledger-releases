@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.4",
+          "buildVersion": "10404",
+          "date": "2026-11-11T14:04:25Z",
+          "localizedDescription": "## 改进\n- 导入汇丰信用卡账单时，已经从支付宝/微信记过的同一笔消费不再重复入账，只把银行记账日补到原来那笔分录上；核对页可以逐条取消补写（#648）\n- 汇丰账单里金额差几毛（比如有优惠）或有多笔同金额、对不上的交易，会标为“疑似重复”，默认不导入，并注明可能对应账本里的哪一笔（#648）\n- 导入页新增“补写汇丰记账日”：从已归档的汇丰账单为以前的支付宝/微信/手记分录补上记账日，并列出同一张卡上可能重复记账的分录供核对（#648）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.4/LedgerMobile-1.4.4-10404-SideStore.ipa",
+          "size": 37603760,
+          "sha256": "1cd5bc09594be9b8524b9f60b031c00492aa19b9c4c8a167f3ca4bb843315750",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.3",
           "buildVersion": "10403",
           "date": "2026-11-11T12:17:49Z",
@@ -122,11 +132,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.3",
-      "versionDate": "2026-11-11T12:17:49Z",
-      "versionDescription": "- AI 开账改为分四步引导：资金账户、待还款项、收入分类、支出分类，每次只问一件事，并尽量给出可点选的选项；提前说过的内容会自动跳过（#642）\n- AI 开账顶部新增进度条，显示当前步骤和已整理的账户、分类数量；账本结构改为点开查看的面板，不再挤占对话空间（#642）\n- 修复用 SideStore 安装时报 appIdName 无效、无法安装的问题（#644）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.3/LedgerMobile-1.4.3-10403-SideStore.ipa",
-      "size": 37491245
+      "version": "1.4.4",
+      "versionDate": "2026-11-11T14:04:25Z",
+      "versionDescription": "## 改进\n- 导入汇丰信用卡账单时，已经从支付宝/微信记过的同一笔消费不再重复入账，只把银行记账日补到原来那笔分录上；核对页可以逐条取消补写（#648）\n- 汇丰账单里金额差几毛（比如有优惠）或有多笔同金额、对不上的交易，会标为“疑似重复”，默认不导入，并注明可能对应账本里的哪一笔（#648）\n- 导入页新增“补写汇丰记账日”：从已归档的汇丰账单为以前的支付宝/微信/手记分录补上记账日，并列出同一张卡上可能重复记账的分录供核对（#648）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.4/LedgerMobile-1.4.4-10404-SideStore.ipa",
+      "size": 37603760
     }
   ],
   "news": []
