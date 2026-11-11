@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.5",
+          "buildVersion": "10405",
+          "date": "2026-11-11T16:35:54Z",
+          "localizedDescription": "## 改进\n- 账本助手改为 tab 栏旁的浮出按钮，全屏打开，输入框固定在屏幕最底部，滚动和回复时不再跳动；关闭后对话在后台继续（#653）\n- 搜索改为普通入口：可在设置里放进底部标签栏，未放入时在「更多」的「账本工具」中；原来放在标签栏的「助手」会自动换成「搜索」（#653）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.5/LedgerMobile-1.4.5-10405-SideStore.ipa",
+          "size": 37609210,
+          "sha256": "5892f2b9da8f9c61daa3a098963c1b33c610a4057e518a9caeef45314bccaa5c",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.4",
           "buildVersion": "10404",
           "date": "2026-11-11T14:04:25Z",
@@ -132,11 +142,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.4",
-      "versionDate": "2026-11-11T14:04:25Z",
-      "versionDescription": "## 改进\n- 导入汇丰信用卡账单时，已经从支付宝/微信记过的同一笔消费不再重复入账，只把银行记账日补到原来那笔分录上；核对页可以逐条取消补写（#648）\n- 汇丰账单里金额差几毛（比如有优惠）或有多笔同金额、对不上的交易，会标为“疑似重复”，默认不导入，并注明可能对应账本里的哪一笔（#648）\n- 导入页新增“补写汇丰记账日”：从已归档的汇丰账单为以前的支付宝/微信/手记分录补上记账日，并列出同一张卡上可能重复记账的分录供核对（#648）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.4/LedgerMobile-1.4.4-10404-SideStore.ipa",
-      "size": 37603760
+      "version": "1.4.5",
+      "versionDate": "2026-11-11T16:35:54Z",
+      "versionDescription": "## 改进\n- 账本助手改为 tab 栏旁的浮出按钮，全屏打开，输入框固定在屏幕最底部，滚动和回复时不再跳动；关闭后对话在后台继续（#653）\n- 搜索改为普通入口：可在设置里放进底部标签栏，未放入时在「更多」的「账本工具」中；原来放在标签栏的「助手」会自动换成「搜索」（#653）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.5/LedgerMobile-1.4.5-10405-SideStore.ipa",
+      "size": 37609210
     }
   ],
   "news": []
