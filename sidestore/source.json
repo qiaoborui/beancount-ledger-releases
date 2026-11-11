@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.6",
+          "buildVersion": "10406",
+          "date": "2026-11-11T17:01:57Z",
+          "localizedDescription": "## 修复\n- 修复账本助手连续调用工具时页面上下闪烁、跟不住最新输出的问题；正在运行的工具和思考改为显示在底部固定的一行「当前活动」（#656）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.6/LedgerMobile-1.4.6-10406-SideStore.ipa",
+          "size": 37614967,
+          "sha256": "7e3ca08aba22d17068b3ed12a567647a83c02b3f65d654a22cb679d883b4b238",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.5",
           "buildVersion": "10405",
           "date": "2026-11-11T16:35:54Z",
@@ -142,11 +152,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.5",
-      "versionDate": "2026-11-11T16:35:54Z",
-      "versionDescription": "## 改进\n- 账本助手改为 tab 栏旁的浮出按钮，全屏打开，输入框固定在屏幕最底部，滚动和回复时不再跳动；关闭后对话在后台继续（#653）\n- 搜索改为普通入口：可在设置里放进底部标签栏，未放入时在「更多」的「账本工具」中；原来放在标签栏的「助手」会自动换成「搜索」（#653）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.5/LedgerMobile-1.4.5-10405-SideStore.ipa",
-      "size": 37609210
+      "version": "1.4.6",
+      "versionDate": "2026-11-11T17:01:57Z",
+      "versionDescription": "## 修复\n- 修复账本助手连续调用工具时页面上下闪烁、跟不住最新输出的问题；正在运行的工具和思考改为显示在底部固定的一行「当前活动」（#656）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.6/LedgerMobile-1.4.6-10406-SideStore.ipa",
+      "size": 37614967
     }
   ],
   "news": []
