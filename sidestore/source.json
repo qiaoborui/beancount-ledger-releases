@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.9",
+          "buildVersion": "10409",
+          "date": "2026-11-12T03:45:22Z",
+          "localizedDescription": "## 改进\n- 账本助手后台运行时，灵动岛和锁屏卡片显示 App logo，不再是星星（#662）\n## 修复\n- 修复账本助手自定义模型有时仍按 128k 上下文计算的问题：最后才保存 API key 时也会读取模型列表，列表中个别条目格式异常不再导致整张列表失败，回复长度上限也改用模型列表提供的值（#664）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.9/LedgerMobile-1.4.9-10409-SideStore.ipa",
+          "size": 37635418,
+          "sha256": "b2294a70d0538461891e64d4079a3a0db7a9e094aae53b355fde6de21ae77368",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.8",
           "buildVersion": "10408",
           "date": "2026-11-11T18:43:05Z",
@@ -172,11 +182,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.8",
-      "versionDate": "2026-11-11T18:43:05Z",
-      "versionDescription": "## 改进\n- 账本助手改为全屏页面，往上翻对话时不会再一下滑就关掉，只能点右上角关闭（#659）\n- 账本助手的上下文用量按模型列表里提供的真实上下文长度计算，不再一律按 128k；自动压缩也按这个长度触发（#658）\n## 修复\n- 修复账本助手回答时页面上下弹跳的问题（#660）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.8/LedgerMobile-1.4.8-10408-SideStore.ipa",
-      "size": 37626193
+      "version": "1.4.9",
+      "versionDate": "2026-11-12T03:45:22Z",
+      "versionDescription": "## 改进\n- 账本助手后台运行时，灵动岛和锁屏卡片显示 App logo，不再是星星（#662）\n## 修复\n- 修复账本助手自定义模型有时仍按 128k 上下文计算的问题：最后才保存 API key 时也会读取模型列表，列表中个别条目格式异常不再导致整张列表失败，回复长度上限也改用模型列表提供的值（#664）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.9/LedgerMobile-1.4.9-10409-SideStore.ipa",
+      "size": 37635418
     }
   ],
   "news": []
