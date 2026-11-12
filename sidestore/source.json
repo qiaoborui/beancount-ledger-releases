@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.10",
+          "buildVersion": "10410",
+          "date": "2026-11-12T06:05:49Z",
+          "localizedDescription": "## 新增\n- 周报 / 月报：可设定周几、几号出报告，到点通知（不显示金额），报告前提醒导入账单；报告页可切换周 / 月 / 自定义范围、上下期，板块可开关排序；可导出带隐私选项的小票图片（#672）\n- 本地记账提醒和导入账单提醒：在 设置 › 提醒 里设定时间和重复，当天已记账会自动跳过，通知里可直接去记一笔或导入账单（#671）\n## 改进\n- 账户页大类卡片可折叠，默认折叠，点标题展开（#667）\n## 修复\n- 修复账本助手生成的账户链接打开后提示「账户分页参数无效」的问题；找不到账户时给出明确提示（#670）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.10/LedgerMobile-1.4.10-10410-SideStore.ipa",
+          "size": 37898882,
+          "sha256": "1ca9a21399e731d074a30b5050dac70f5cbfba4423be5aac7df1513951dd6e1f",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.9",
           "buildVersion": "10409",
           "date": "2026-11-12T03:45:22Z",
@@ -182,11 +192,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.9",
-      "versionDate": "2026-11-12T03:45:22Z",
-      "versionDescription": "## 改进\n- 账本助手后台运行时，灵动岛和锁屏卡片显示 App logo，不再是星星（#662）\n## 修复\n- 修复账本助手自定义模型有时仍按 128k 上下文计算的问题：最后才保存 API key 时也会读取模型列表，列表中个别条目格式异常不再导致整张列表失败，回复长度上限也改用模型列表提供的值（#664）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.9/LedgerMobile-1.4.9-10409-SideStore.ipa",
-      "size": 37635418
+      "version": "1.4.10",
+      "versionDate": "2026-11-12T06:05:49Z",
+      "versionDescription": "## 新增\n- 周报 / 月报：可设定周几、几号出报告，到点通知（不显示金额），报告前提醒导入账单；报告页可切换周 / 月 / 自定义范围、上下期，板块可开关排序；可导出带隐私选项的小票图片（#672）\n- 本地记账提醒和导入账单提醒：在 设置 › 提醒 里设定时间和重复，当天已记账会自动跳过，通知里可直接去记一笔或导入账单（#671）\n## 改进\n- 账户页大类卡片可折叠，默认折叠，点标题展开（#667）\n## 修复\n- 修复账本助手生成的账户链接打开后提示「账户分页参数无效」的问题；找不到账户时给出明确提示（#670）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.10/LedgerMobile-1.4.10-10410-SideStore.ipa",
+      "size": 37898882
     }
   ],
   "news": []
