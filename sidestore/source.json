@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.11",
+          "buildVersion": "10411",
+          "date": "2026-11-13T10:05:54Z",
+          "localizedDescription": "## 改进\n- 底栏右侧的账本助手按钮换成 App 自己的标志，比原来的气泡图标更小、更克制（#681）\n## 修复\n- 灵动岛：账本助手在后台运行时不再偏右，左右留白对称，左侧标志也不再贴着摄像头挖孔（#680）\n- 修复「更多」里从二级页面返回后行点不动、进不去的问题（#677）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.11/LedgerMobile-1.4.11-10411-SideStore.ipa",
+          "size": 37900332,
+          "sha256": "7a3add7a4f0a4f14f00cdd93268a34e5b185633201d4a6340fb47231fd62945a",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.10",
           "buildVersion": "10410",
           "date": "2026-11-12T06:05:49Z",
@@ -192,11 +202,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.10",
-      "versionDate": "2026-11-12T06:05:49Z",
-      "versionDescription": "## 新增\n- 周报 / 月报：可设定周几、几号出报告，到点通知（不显示金额），报告前提醒导入账单；报告页可切换周 / 月 / 自定义范围、上下期，板块可开关排序；可导出带隐私选项的小票图片（#672）\n- 本地记账提醒和导入账单提醒：在 设置 › 提醒 里设定时间和重复，当天已记账会自动跳过，通知里可直接去记一笔或导入账单（#671）\n## 改进\n- 账户页大类卡片可折叠，默认折叠，点标题展开（#667）\n## 修复\n- 修复账本助手生成的账户链接打开后提示「账户分页参数无效」的问题；找不到账户时给出明确提示（#670）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.10/LedgerMobile-1.4.10-10410-SideStore.ipa",
-      "size": 37898882
+      "version": "1.4.11",
+      "versionDate": "2026-11-13T10:05:54Z",
+      "versionDescription": "## 改进\n- 底栏右侧的账本助手按钮换成 App 自己的标志，比原来的气泡图标更小、更克制（#681）\n## 修复\n- 灵动岛：账本助手在后台运行时不再偏右，左右留白对称，左侧标志也不再贴着摄像头挖孔（#680）\n- 修复「更多」里从二级页面返回后行点不动、进不去的问题（#677）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.11/LedgerMobile-1.4.11-10411-SideStore.ipa",
+      "size": 37900332
     }
   ],
   "news": []
