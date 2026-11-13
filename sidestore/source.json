@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.13",
+          "buildVersion": "10413",
+          "date": "2026-11-13T16:33:59Z",
+          "localizedDescription": "## 新增\n- 设置 › 诊断 › 崩溃日志：闪退后会留下日志，可以查看、复制、分享和清空，方便定位问题（#684）\n## 修复\n- 修复从账本助手完成通知回到 App 时偶发的闪退：外部路由会等 App 真正回到前台、账本就绪后再弹页面（#684）\n## 改进\n- 账本助手聊过两轮之后再给会话起名，命名失败会自动重试，不再总是停在第一句话（#683）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.13/LedgerMobile-1.4.13-10413-SideStore.ipa",
+          "size": 37959348,
+          "sha256": "aca8c4f49e8312666f7853fbae4a9eb9d9601f7b0390bfc0124b8d58329587d7",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.12",
           "buildVersion": "10412",
           "date": "2026-11-13T15:04:08Z",
@@ -212,11 +222,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.12",
-      "versionDate": "2026-11-13T15:04:08Z",
-      "versionDescription": "## 修复\n- 通过账本助手导入账单后，「导入」页对应渠道的覆盖日期和归档记录现在会一起更新；原件按导入页认的方式归档（#682）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.12/LedgerMobile-1.4.12-10412-SideStore.ipa",
-      "size": 37903236
+      "version": "1.4.13",
+      "versionDate": "2026-11-13T16:33:59Z",
+      "versionDescription": "## 新增\n- 设置 › 诊断 › 崩溃日志：闪退后会留下日志，可以查看、复制、分享和清空，方便定位问题（#684）\n## 修复\n- 修复从账本助手完成通知回到 App 时偶发的闪退：外部路由会等 App 真正回到前台、账本就绪后再弹页面（#684）\n## 改进\n- 账本助手聊过两轮之后再给会话起名，命名失败会自动重试，不再总是停在第一句话（#683）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.13/LedgerMobile-1.4.13-10413-SideStore.ipa",
+      "size": 37959348
     }
   ],
   "news": []
