@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.12",
+          "buildVersion": "10412",
+          "date": "2026-11-13T15:04:08Z",
+          "localizedDescription": "## 修复\n- 通过账本助手导入账单后，「导入」页对应渠道的覆盖日期和归档记录现在会一起更新；原件按导入页认的方式归档（#682）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.12/LedgerMobile-1.4.12-10412-SideStore.ipa",
+          "size": 37903236,
+          "sha256": "f4fb5dc521a100b666ca5e4a0ae4a22ffacbe991dd37b2badcd2a41fd0f2d867",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.11",
           "buildVersion": "10411",
           "date": "2026-11-13T10:05:54Z",
@@ -202,11 +212,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.11",
-      "versionDate": "2026-11-13T10:05:54Z",
-      "versionDescription": "## 改进\n- 底栏右侧的账本助手按钮换成 App 自己的标志，比原来的气泡图标更小、更克制（#681）\n## 修复\n- 灵动岛：账本助手在后台运行时不再偏右，左右留白对称，左侧标志也不再贴着摄像头挖孔（#680）\n- 修复「更多」里从二级页面返回后行点不动、进不去的问题（#677）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.11/LedgerMobile-1.4.11-10411-SideStore.ipa",
-      "size": 37900332
+      "version": "1.4.12",
+      "versionDate": "2026-11-13T15:04:08Z",
+      "versionDescription": "## 修复\n- 通过账本助手导入账单后，「导入」页对应渠道的覆盖日期和归档记录现在会一起更新；原件按导入页认的方式归档（#682）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.12/LedgerMobile-1.4.12-10412-SideStore.ipa",
+      "size": 37903236
     }
   ],
   "news": []
