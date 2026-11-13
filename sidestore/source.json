@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.14",
+          "buildVersion": "10414",
+          "date": "2026-11-13T18:22:18Z",
+          "localizedDescription": "## 修复\n- 账本助手的动态岛计时器不再被裁掉最后一位（#689）\n- 崩溃日志与 MetricKit 报告按发生时间统一排序，不会再漏掉真正的崩溃（#688）\n- 从小组件打开账本助手时不再切走当前对话（#688）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.14/LedgerMobile-1.4.14-10414-SideStore.ipa",
+          "size": 37962602,
+          "sha256": "a3b0ff6847a53aaef9639181a3ada7b5c2ef5115dcf45e8d2d25cabbef5ffc62",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.13",
           "buildVersion": "10413",
           "date": "2026-11-13T16:33:59Z",
@@ -222,11 +232,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.13",
-      "versionDate": "2026-11-13T16:33:59Z",
-      "versionDescription": "## 新增\n- 设置 › 诊断 › 崩溃日志：闪退后会留下日志，可以查看、复制、分享和清空，方便定位问题（#684）\n## 修复\n- 修复从账本助手完成通知回到 App 时偶发的闪退：外部路由会等 App 真正回到前台、账本就绪后再弹页面（#684）\n## 改进\n- 账本助手聊过两轮之后再给会话起名，命名失败会自动重试，不再总是停在第一句话（#683）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.13/LedgerMobile-1.4.13-10413-SideStore.ipa",
-      "size": 37959348
+      "version": "1.4.14",
+      "versionDate": "2026-11-13T18:22:18Z",
+      "versionDescription": "## 修复\n- 账本助手的动态岛计时器不再被裁掉最后一位（#689）\n- 崩溃日志与 MetricKit 报告按发生时间统一排序，不会再漏掉真正的崩溃（#688）\n- 从小组件打开账本助手时不再切走当前对话（#688）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.14/LedgerMobile-1.4.14-10414-SideStore.ipa",
+      "size": 37962602
     }
   ],
   "news": []
