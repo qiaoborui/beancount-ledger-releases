@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.17",
+          "buildVersion": "10417",
+          "date": "2026-11-14T06:41:39Z",
+          "localizedDescription": "## 改进\n- 点一下账本助手的输入框就展开，直接能选模型和思考强度；发送后收回（#694）\n- 空态加回 App 自己的标记，问候字号调大，标记、问候和问句居中成一条线（#694）\n- 历史对话改成从左侧滑出的抽屉：顶部搜索，已置顶和最近分开列，底部是新对话（#694）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.17/LedgerMobile-1.4.17-10417-SideStore.ipa",
+          "size": 37994193,
+          "sha256": "83b40f481a779108fd41f9faa13256a9158b49c2669b5bde841c792784b967c4",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.16",
           "buildVersion": "10416",
           "date": "2026-11-14T05:43:36Z",
@@ -252,11 +262,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.16",
-      "versionDate": "2026-11-14T05:43:36Z",
-      "versionDescription": "## 改进\n- 账本助手空态改成按时段的问候（早上好 / 中午好 / 下午好 / 晚上好），下面接一句问话和推荐问题（#692）\n- 输入栏平时是一行；输入框里有内容时才多出「模型 + 思考强度」那一行，发送后收回（#692）\n- 还没开始聊时右上角是隐藏金额，聊起来之后变成新建对话（#692）\n- 推荐问题可以在设置里关掉，关掉后不再为它请求模型（#692）\n\n## 修复\n- 修复账本助手「查看历史对话」这个工具因为参数定义错误而无法调用的问题（#691）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.16/LedgerMobile-1.4.16-10416-SideStore.ipa",
-      "size": 37973158
+      "version": "1.4.17",
+      "versionDate": "2026-11-14T06:41:39Z",
+      "versionDescription": "## 改进\n- 点一下账本助手的输入框就展开，直接能选模型和思考强度；发送后收回（#694）\n- 空态加回 App 自己的标记，问候字号调大，标记、问候和问句居中成一条线（#694）\n- 历史对话改成从左侧滑出的抽屉：顶部搜索，已置顶和最近分开列，底部是新对话（#694）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.17/LedgerMobile-1.4.17-10417-SideStore.ipa",
+      "size": 37994193
     }
   ],
   "news": []
