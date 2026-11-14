@@ -27,10 +27,22 @@
         ],
         "privacy": {
           "NSCameraUsageDescription": "拍摄票据或账单照片，交给账本助手识别记账。",
-          "NSFaceIDUsageDescription": "使用 Face ID 解锁受保护的账本金额和财务数据。"
+          "NSFaceIDUsageDescription": "使用 Face ID 解锁受保护的账本金额和财务数据。",
+          "NSMicrophoneUsageDescription": "用语音向账本助手提问或记账，录音只用于转成文字，不会保存。",
+          "NSSpeechRecognitionUsageDescription": "把你说的话转成文字，放进账本助手的输入框。"
         }
       },
       "versions": [
+        {
+          "version": "1.4.21",
+          "buildVersion": "10421",
+          "date": "2026-11-14T19:45:21Z",
+          "localizedDescription": "## 改进\n- 账本助手可以用语音提问或记账：轻点输入框旁的麦克风开始录音，点 ✓ 把文字放进输入框，或直接发送；按住麦克风说话，松开就插入文字。说话时波形平滑滚动，文字边说边出现，可以先改再发（#707）\n- 语音识别按 app 语言进行，语言支持时在设备上完成；录音不会保存。首次使用会请求麦克风和语音识别权限",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.21/LedgerMobile-1.4.21-10421-SideStore.ipa",
+          "size": 38222623,
+          "sha256": "0f5e58d679a46f29c7eaab7ffd68aaf1cf7a7e063781279c34264b712ee6d190",
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.4.20",
           "buildVersion": "10420",
@@ -292,11 +304,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.20",
-      "versionDate": "2026-11-14T17:46:36Z",
-      "versionDescription": "## 改进\n- 开了 Face ID 的本地账本进入更快：认证一通过就在系统面板后面揭开账本，不再等场景切换；冷启动的启动画面也提前离场（#706）\n\n## 修复\n- 从后台回来不再先闪出上次的页面或解锁页：隐私遮罩一直留到自动解锁有结果，被拒才显示解锁页（#706）\n- 冷启动不再被遗留的后台时间戳锁住，直接走解锁页（#706）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.20/LedgerMobile-1.4.20-10420-SideStore.ipa",
-      "size": 38178321
+      "version": "1.4.21",
+      "versionDate": "2026-11-14T19:45:21Z",
+      "versionDescription": "## 改进\n- 账本助手可以用语音提问或记账：轻点输入框旁的麦克风开始录音，点 ✓ 把文字放进输入框，或直接发送；按住麦克风说话，松开就插入文字。说话时波形平滑滚动，文字边说边出现，可以先改再发（#707）\n- 语音识别按 app 语言进行，语言支持时在设备上完成；录音不会保存。首次使用会请求麦克风和语音识别权限",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.21/LedgerMobile-1.4.21-10421-SideStore.ipa",
+      "size": 38222623
     }
   ],
   "news": []
