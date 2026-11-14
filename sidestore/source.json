@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.15",
+          "buildVersion": "10415",
+          "date": "2026-11-14T03:39:35Z",
+          "localizedDescription": "## 改进\n- 账本助手改成无标题的对话布局：历史对话在左上角，模型与密钥在右上角，「新对话」移到历史面板第一行（#690）\n- 空态换成居中的标记和一句问话，推荐问题改成居中的胶囊按钮（#690）\n- 输入栏改成浮起的胶囊：附件「＋」和发送按钮都在胶囊里（#690）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.15/LedgerMobile-1.4.15-10415-SideStore.ipa",
+          "size": 37964786,
+          "sha256": "76d8e9ba1c767edf2b6c417aa2190a6e7186c93b2975f652000cf6a58c36e959",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.14",
           "buildVersion": "10414",
           "date": "2026-11-13T18:22:18Z",
@@ -232,11 +242,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.14",
-      "versionDate": "2026-11-13T18:22:18Z",
-      "versionDescription": "## 修复\n- 账本助手的动态岛计时器不再被裁掉最后一位（#689）\n- 崩溃日志与 MetricKit 报告按发生时间统一排序，不会再漏掉真正的崩溃（#688）\n- 从小组件打开账本助手时不再切走当前对话（#688）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.14/LedgerMobile-1.4.14-10414-SideStore.ipa",
-      "size": 37962602
+      "version": "1.4.15",
+      "versionDate": "2026-11-14T03:39:35Z",
+      "versionDescription": "## 改进\n- 账本助手改成无标题的对话布局：历史对话在左上角，模型与密钥在右上角，「新对话」移到历史面板第一行（#690）\n- 空态换成居中的标记和一句问话，推荐问题改成居中的胶囊按钮（#690）\n- 输入栏改成浮起的胶囊：附件「＋」和发送按钮都在胶囊里（#690）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.15/LedgerMobile-1.4.15-10415-SideStore.ipa",
+      "size": 37964786
     }
   ],
   "news": []
