@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.20",
+          "buildVersion": "10420",
+          "date": "2026-11-14T17:46:36Z",
+          "localizedDescription": "## 改进\n- 开了 Face ID 的本地账本进入更快：认证一通过就在系统面板后面揭开账本，不再等场景切换；冷启动的启动画面也提前离场（#706）\n\n## 修复\n- 从后台回来不再先闪出上次的页面或解锁页：隐私遮罩一直留到自动解锁有结果，被拒才显示解锁页（#706）\n- 冷启动不再被遗留的后台时间戳锁住，直接走解锁页（#706）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.20/LedgerMobile-1.4.20-10420-SideStore.ipa",
+          "size": 38178321,
+          "sha256": "17a3549f5b0d83ff7b514dbac52338201a93bf6fb574175721758ccf724ea0fc",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.19",
           "buildVersion": "10419",
           "date": "2026-11-14T14:02:32Z",
@@ -282,11 +292,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.19",
-      "versionDate": "2026-11-14T14:02:32Z",
-      "versionDescription": "## 改进\n- 技能现在由助手自己维护：让它「以后都这样做」，它会新建一份技能；也能改、能删，改动随账本 Git 同步到其他设备（#705）\n- 内置的支付宝账单、微信账单、记账三份技能也能改了：改一次就变成你自己账本里的版本，不再只读（#705）\n- 删掉的内置技能不会丢内容，想恢复和助手说一声就行（#705）\n\n## 移除\n- 去掉了上一版的 MCP 服务器入口：个人记账用不上，还要把调用参数发给外部服务（#704）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.19/LedgerMobile-1.4.19-10419-SideStore.ipa",
-      "size": 38176019
+      "version": "1.4.20",
+      "versionDate": "2026-11-14T17:46:36Z",
+      "versionDescription": "## 改进\n- 开了 Face ID 的本地账本进入更快：认证一通过就在系统面板后面揭开账本，不再等场景切换；冷启动的启动画面也提前离场（#706）\n\n## 修复\n- 从后台回来不再先闪出上次的页面或解锁页：隐私遮罩一直留到自动解锁有结果，被拒才显示解锁页（#706）\n- 冷启动不再被遗留的后台时间戳锁住，直接走解锁页（#706）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.20/LedgerMobile-1.4.20-10420-SideStore.ipa",
+      "size": 38178321
     }
   ],
   "news": []
