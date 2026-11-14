@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.16",
+          "buildVersion": "10416",
+          "date": "2026-11-14T05:43:36Z",
+          "localizedDescription": "## 改进\n- 账本助手空态改成按时段的问候（早上好 / 中午好 / 下午好 / 晚上好），下面接一句问话和推荐问题（#692）\n- 输入栏平时是一行；输入框里有内容时才多出「模型 + 思考强度」那一行，发送后收回（#692）\n- 还没开始聊时右上角是隐藏金额，聊起来之后变成新建对话（#692）\n- 推荐问题可以在设置里关掉，关掉后不再为它请求模型（#692）\n\n## 修复\n- 修复账本助手「查看历史对话」这个工具因为参数定义错误而无法调用的问题（#691）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.16/LedgerMobile-1.4.16-10416-SideStore.ipa",
+          "size": 37973158,
+          "sha256": "1dba4522c0b6a021d31f008802d3a99852a7714572f924048a54d61806ab4d8a",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.15",
           "buildVersion": "10415",
           "date": "2026-11-14T03:39:35Z",
@@ -242,11 +252,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.15",
-      "versionDate": "2026-11-14T03:39:35Z",
-      "versionDescription": "## 改进\n- 账本助手改成无标题的对话布局：历史对话在左上角，模型与密钥在右上角，「新对话」移到历史面板第一行（#690）\n- 空态换成居中的标记和一句问话，推荐问题改成居中的胶囊按钮（#690）\n- 输入栏改成浮起的胶囊：附件「＋」和发送按钮都在胶囊里（#690）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.15/LedgerMobile-1.4.15-10415-SideStore.ipa",
-      "size": 37964786
+      "version": "1.4.16",
+      "versionDate": "2026-11-14T05:43:36Z",
+      "versionDescription": "## 改进\n- 账本助手空态改成按时段的问候（早上好 / 中午好 / 下午好 / 晚上好），下面接一句问话和推荐问题（#692）\n- 输入栏平时是一行；输入框里有内容时才多出「模型 + 思考强度」那一行，发送后收回（#692）\n- 还没开始聊时右上角是隐藏金额，聊起来之后变成新建对话（#692）\n- 推荐问题可以在设置里关掉，关掉后不再为它请求模型（#692）\n\n## 修复\n- 修复账本助手「查看历史对话」这个工具因为参数定义错误而无法调用的问题（#691）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.16/LedgerMobile-1.4.16-10416-SideStore.ipa",
+      "size": 37973158
     }
   ],
   "news": []
