@@ -32,6 +32,16 @@
       },
       "versions": [
         {
+          "version": "1.4.19",
+          "buildVersion": "10419",
+          "date": "2026-11-14T14:02:32Z",
+          "localizedDescription": "## 改进\n- 技能现在由助手自己维护：让它「以后都这样做」，它会新建一份技能；也能改、能删，改动随账本 Git 同步到其他设备（#705）\n- 内置的支付宝账单、微信账单、记账三份技能也能改了：改一次就变成你自己账本里的版本，不再只读（#705）\n- 删掉的内置技能不会丢内容，想恢复和助手说一声就行（#705）\n\n## 移除\n- 去掉了上一版的 MCP 服务器入口：个人记账用不上，还要把调用参数发给外部服务（#704）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.19/LedgerMobile-1.4.19-10419-SideStore.ipa",
+          "size": 38176019,
+          "sha256": "618a5817ab682ef0204bb0e6b0ada1f32ad14ba26d3c61ac3fdb767f7d520338",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.18",
           "buildVersion": "10418",
           "date": "2026-11-14T13:09:20Z",
@@ -272,11 +282,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.18",
-      "versionDate": "2026-11-14T13:09:20Z",
-      "versionDescription": "## 改进\n- 账本助手默认「自动写入」：校验通过就直接记进账本，每次都能撤销；只有删文件或一次删改很多行时才先问你（#697）\n- 助手设置重做成一页看得完：模型、写入账本、记忆、建议、能力、高级各一行，右侧直接显示当前选项（#697）\n- 助手现在能改 App 自己的设置：首页区块与顺序、底部标签、估值币种、记账提醒、周报月报，改完在对话里可以撤销（#699）\n- AI 开账不再按固定步骤盘问：你说多少它记多少，只追问还缺的；账本建好后直接把你交给账本助手，并给出几个可以点的下一步（#698）\n- 新增技能：助手按需加载「怎么导入某家银行的账单」「月底怎么对账」这类说明，内置支付宝账单、微信账单、记账三份，也可以写进账本的 skills/ 随 Git 同步（#700）\n- 新增远程 MCP 服务器：在设置里接入自己的服务，它的工具会并进助手的工具箱；令牌只保存在本机钥匙串（#701）\n- 「助手设置 › 能力」里可以直接进入技能和 MCP 服务器（#702）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.18/LedgerMobile-1.4.18-10418-SideStore.ipa",
-      "size": 38317091
+      "version": "1.4.19",
+      "versionDate": "2026-11-14T14:02:32Z",
+      "versionDescription": "## 改进\n- 技能现在由助手自己维护：让它「以后都这样做」，它会新建一份技能；也能改、能删，改动随账本 Git 同步到其他设备（#705）\n- 内置的支付宝账单、微信账单、记账三份技能也能改了：改一次就变成你自己账本里的版本，不再只读（#705）\n- 删掉的内置技能不会丢内容，想恢复和助手说一声就行（#705）\n\n## 移除\n- 去掉了上一版的 MCP 服务器入口：个人记账用不上，还要把调用参数发给外部服务（#704）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.19/LedgerMobile-1.4.19-10419-SideStore.ipa",
+      "size": 38176019
     }
   ],
   "news": []
