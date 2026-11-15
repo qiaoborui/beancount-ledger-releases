@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "1.4.23",
+          "buildVersion": "10423",
+          "date": "2026-11-15T12:16:38Z",
+          "localizedDescription": "## 改进\n- 内置 Linux 可以自己直接用了：更多 → 终端 打开一个真正的 shell（支持 vi、top、python、Ctrl-C），键盘上方有 esc、tab、ctrl 和方向键；离开页面 shell 不会断，回来还在原处（#711）\n- 更多 → Linux 文件 可以浏览内置 Linux 里的文件：预览、分享导出、从「文件」App 导入、新建文件夹和删除（#711）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.23/LedgerMobile-1.4.23-10423-SideStore.ipa",
+          "size": 42629397,
+          "sha256": "b6143f372233dacf1c661954f235306592f46953bdedb3bab18c44c6d35dd915",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.22",
           "buildVersion": "10422",
           "date": "2026-11-15T11:08:17Z",
@@ -314,11 +324,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.22",
-      "versionDate": "2026-11-15T11:08:17Z",
-      "versionDescription": "## 改进\n- 账本助手可以在 App 内置的 Linux（Alpine）里运行命令和脚本：需要时可以用 apk 装 Python 等工具来做统计和整理，只能看到本次对话的草稿，改动照常校验后写入账本。在 助手设置 → 能力 → 内置 Linux 可以关闭、查看占用空间或重置（#710）\n## 修复\n- 修复语音输入时波形不动的问题；输入框失焦后收回一行（#708）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.22/LedgerMobile-1.4.22-10422-SideStore.ipa",
-      "size": 42437541
+      "version": "1.4.23",
+      "versionDate": "2026-11-15T12:16:38Z",
+      "versionDescription": "## 改进\n- 内置 Linux 可以自己直接用了：更多 → 终端 打开一个真正的 shell（支持 vi、top、python、Ctrl-C），键盘上方有 esc、tab、ctrl 和方向键；离开页面 shell 不会断，回来还在原处（#711）\n- 更多 → Linux 文件 可以浏览内置 Linux 里的文件：预览、分享导出、从「文件」App 导入、新建文件夹和删除（#711）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.23/LedgerMobile-1.4.23-10423-SideStore.ipa",
+      "size": 42629397
     }
   ],
   "news": []
