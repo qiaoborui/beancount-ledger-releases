@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "1.4.22",
+          "buildVersion": "10422",
+          "date": "2026-11-15T11:08:17Z",
+          "localizedDescription": "## 改进\n- 账本助手可以在 App 内置的 Linux（Alpine）里运行命令和脚本：需要时可以用 apk 装 Python 等工具来做统计和整理，只能看到本次对话的草稿，改动照常校验后写入账本。在 助手设置 → 能力 → 内置 Linux 可以关闭、查看占用空间或重置（#710）\n## 修复\n- 修复语音输入时波形不动的问题；输入框失焦后收回一行（#708）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.22/LedgerMobile-1.4.22-10422-SideStore.ipa",
+          "size": 42437541,
+          "sha256": "49e4e7c64336c7d4de0a844fd3277225bb26ada4ef355246ad9e388d003168d6",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.21",
           "buildVersion": "10421",
           "date": "2026-11-14T19:45:21Z",
@@ -304,11 +314,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.21",
-      "versionDate": "2026-11-14T19:45:21Z",
-      "versionDescription": "## 改进\n- 账本助手可以用语音提问或记账：轻点输入框旁的麦克风开始录音，点 ✓ 把文字放进输入框，或直接发送；按住麦克风说话，松开就插入文字。说话时波形平滑滚动，文字边说边出现，可以先改再发（#707）\n- 语音识别按 app 语言进行，语言支持时在设备上完成；录音不会保存。首次使用会请求麦克风和语音识别权限",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.21/LedgerMobile-1.4.21-10421-SideStore.ipa",
-      "size": 38222623
+      "version": "1.4.22",
+      "versionDate": "2026-11-15T11:08:17Z",
+      "versionDescription": "## 改进\n- 账本助手可以在 App 内置的 Linux（Alpine）里运行命令和脚本：需要时可以用 apk 装 Python 等工具来做统计和整理，只能看到本次对话的草稿，改动照常校验后写入账本。在 助手设置 → 能力 → 内置 Linux 可以关闭、查看占用空间或重置（#710）\n## 修复\n- 修复语音输入时波形不动的问题；输入框失焦后收回一行（#708）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.22/LedgerMobile-1.4.22-10422-SideStore.ipa",
+      "size": 42437541
     }
   ],
   "news": []
