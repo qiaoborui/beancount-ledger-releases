@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "1.4.24",
+          "buildVersion": "10424",
+          "date": "2026-11-15T15:50:15Z",
+          "localizedDescription": "## 改进\n- 账本助手的历史对话侧边栏重新排版：标题、分组和对话行更大更清晰，「新对话」按钮移到右下角（#712）\n- 在助手首页从屏幕左边缘向右滑即可打开侧边栏，全程跟手；向左拖或点右侧页面即可关闭（#712）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.24/LedgerMobile-1.4.24-10424-SideStore.ipa",
+          "size": 42642462,
+          "sha256": "40d40f7773a6b6a71163438d553eb7e5171282a310f8e8cf7148c27cce67f367",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.23",
           "buildVersion": "10423",
           "date": "2026-11-15T12:16:38Z",
@@ -324,11 +334,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.23",
-      "versionDate": "2026-11-15T12:16:38Z",
-      "versionDescription": "## 改进\n- 内置 Linux 可以自己直接用了：更多 → 终端 打开一个真正的 shell（支持 vi、top、python、Ctrl-C），键盘上方有 esc、tab、ctrl 和方向键；离开页面 shell 不会断，回来还在原处（#711）\n- 更多 → Linux 文件 可以浏览内置 Linux 里的文件：预览、分享导出、从「文件」App 导入、新建文件夹和删除（#711）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.23/LedgerMobile-1.4.23-10423-SideStore.ipa",
-      "size": 42629397
+      "version": "1.4.24",
+      "versionDate": "2026-11-15T15:50:15Z",
+      "versionDescription": "## 改进\n- 账本助手的历史对话侧边栏重新排版：标题、分组和对话行更大更清晰，「新对话」按钮移到右下角（#712）\n- 在助手首页从屏幕左边缘向右滑即可打开侧边栏，全程跟手；向左拖或点右侧页面即可关闭（#712）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.24/LedgerMobile-1.4.24-10424-SideStore.ipa",
+      "size": 42642462
     }
   ],
   "news": []
