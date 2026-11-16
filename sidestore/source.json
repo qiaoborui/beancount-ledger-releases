@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "1.4.27",
+          "buildVersion": "10427",
+          "date": "2026-11-16T04:23:00Z",
+          "localizedDescription": "## 改进\n- 助手回复里的图表和卡片会边生成边显示：写完一块就画出一块，正在写的部分显示「正在生成图表…」，不再露出一屏 JSON（#716）\n- 中途停止回复时，已经画好的图表块会保留（#716）\n- 助手生成代码时，未写完的代码块直接按代码显示（#716）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.27/LedgerMobile-1.4.27-10427-SideStore.ipa",
+          "size": 42761685,
+          "sha256": "c56df53a9e89a2c1d91b9bd97897e896f35d3d9931137fa297c66bde326c8563",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.26",
           "buildVersion": "10426",
           "date": "2026-11-16T02:31:02Z",
@@ -344,11 +354,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.26",
-      "versionDate": "2026-11-16T02:31:02Z",
-      "versionDescription": "## 新增\n- 支持美团账单导入：在美团 App 导出「交易账单明细」CSV，选中后会自动识别，预览核对通过才写入（#713）\n- 助手设置 → 记忆与记录 → iCloud 云盘同步：选一个 iCloud 云盘文件夹，对话记录、附件和记忆就会同步过去，重装 App 后选同一个文件夹即可恢复（#715）\n\n## 改进\n- 美团里的汇丰信用卡订单会在之后导入汇丰账单时自动补写记账日，不会重复记账（#713）\n- 助手历史侧边栏改为对话页面作为卡片在上层被拉开，露出下面的侧边栏；打开时会轻震一下（#714）\n- 侧边栏顶部新增「终端」「Linux 文件」「技能」「记忆」入口，点一下直接进入对应页面（#714）\n\n## 修复\n- 修复关闭助手侧边栏时边缘闪出一条空白的问题（#714）\n- 修复浅色模式下终端页标题看不清的问题（#714）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.26/LedgerMobile-1.4.26-10426-SideStore.ipa",
-      "size": 42746881
+      "version": "1.4.27",
+      "versionDate": "2026-11-16T04:23:00Z",
+      "versionDescription": "## 改进\n- 助手回复里的图表和卡片会边生成边显示：写完一块就画出一块，正在写的部分显示「正在生成图表…」，不再露出一屏 JSON（#716）\n- 中途停止回复时，已经画好的图表块会保留（#716）\n- 助手生成代码时，未写完的代码块直接按代码显示（#716）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.27/LedgerMobile-1.4.27-10427-SideStore.ipa",
+      "size": 42761685
     }
   ],
   "news": []
