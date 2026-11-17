@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "1.4.29",
+          "buildVersion": "10429",
+          "date": "2026-11-17T06:14:32Z",
+          "localizedDescription": "## 新增\n- 定时任务可以在手机上管理：列出每个任务的计划、下次运行时间和上次结果；可以新建（空白或从模板）、编辑、暂停和删除。改动作为经过校验的账本提交，由 Git 同步推到 GitHub，mibook 下一次检查时生效；点开任务直接看它的历次运行，并可继续追问（#721）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.29/LedgerMobile-1.4.29-10429-SideStore.ipa",
+          "size": 43133263,
+          "sha256": "6278ac88fd8eee38598c3bc7db04602caeed9c6e4650ae954c45a79e133f4fdf",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.28",
           "buildVersion": "10428",
           "date": "2026-11-17T04:07:23Z",
@@ -364,11 +374,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.28",
-      "versionDate": "2026-11-17T04:07:23Z",
-      "versionDescription": "## 新增\n- 助手产物：助手可以把结果做成可保存、可再打开的页面（月报、预算表、专题面板），在对话里显示成卡片，点开全屏查看；侧边栏新增「产物」页，可以打开、继续修改、左滑删除（#718）\n- 产物新增五种组件：资金流向图、矩形树图、环形进度、矩阵热力表、流水列表（#719）\n- 产物可以调样式：卡片底、强调色、脚注、分栏，以及统计、排行、进度、热力图、表格等各自的紧凑或专用样式（#719）\n- 高级 HTML 产物：助手可以写一个完全离线的沙盒页面，只能用只读的账本查询，「重新载入数据」不用再问模型（#719）\n- 定时任务：在电脑上按计划跑账本审计和助手任务，比如找出重复记账、未分类和过期的余额断言；手机侧边栏新增「定时任务」页，可以查看每次运行的结果、在手机上接着追问、采纳它写好的草稿（#720）\n- 定时任务跑完可以推送到手机，点通知直接打开那次对话（#720）\n\n## 改进\n- 助手可以写一段脚本一次调用多个工具，像「把这一年的账对一遍」这种多步操作不再一个工具一回合，明显更快（#717）\n- 产物跟随 iCloud 同步，两端都改过时保留较新的那一份（#718）\n\n## 变更\n- 移除「资产分析」页：内容和账户页重复。之前把它设成底部标签或小组件按钮的，会回退到默认（#718）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.28/LedgerMobile-1.4.28-10428-SideStore.ipa",
-      "size": 43030669
+      "version": "1.4.29",
+      "versionDate": "2026-11-17T06:14:32Z",
+      "versionDescription": "## 新增\n- 定时任务可以在手机上管理：列出每个任务的计划、下次运行时间和上次结果；可以新建（空白或从模板）、编辑、暂停和删除。改动作为经过校验的账本提交，由 Git 同步推到 GitHub，mibook 下一次检查时生效；点开任务直接看它的历次运行，并可继续追问（#721）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.29/LedgerMobile-1.4.29-10429-SideStore.ipa",
+      "size": 43133263
     }
   ],
   "news": []
