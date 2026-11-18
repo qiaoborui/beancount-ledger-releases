@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "1.4.31",
+          "buildVersion": "10431",
+          "date": "2026-11-18T05:58:42Z",
+          "localizedDescription": "## 新增\n- 没有账本时，打开 App 就是开账对话：可以直接接入已有的 Git 账本，也可以从零新建；选路、接 Git 都不需要模型，只有从零新建时才在对话里接上模型（#726）\n- 从零新建时，助手用卡片代替一连串追问：填期初余额和开始日期、勾选分类、选账本放在这台设备还是推到一个空的 Git 仓库、选平时导入哪些账单；建好前可以看每个将写入的文件（#726）\n- 新建的账本分成 main / accounts / opening 几个文件，只为选了的渠道准备导入规则（#726）\n- 在系统分享菜单里「发给账本助手」，直接用这些文件开一段新对话（#724）\n\n## 改进\n- 账本助手页更圆润：问题气泡、选项、改动卡片、工具折叠和输入框都换成圆角和液态玻璃（#726）\n- API Key 和仓库令牌只在原生卡片里填写，存进钥匙串，不会进入对话（#726）\n- 定时任务推送带上 App 图标和鸟鸣提示音（#725）；定时任务能从模型列表读取模型的上下文和输出上限（#723）\n\n## 修复\n- 点开账本助手的通知时 1.4.28 会闪退（#722）\n- 内置 Linux 的上游仓库下线后发版构建失败（1.4.30 未发布）（#727）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.31/LedgerMobile-1.4.31-10431-SideStore.ipa",
+          "size": 43367376,
+          "sha256": "fbc23504a0f4c010fe3beb2f33ff0d2f95c245478a06769cf24635d412631e3f",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4.29",
           "buildVersion": "10429",
           "date": "2026-11-17T06:14:32Z",
@@ -374,11 +384,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.4.29",
-      "versionDate": "2026-11-17T06:14:32Z",
-      "versionDescription": "## 新增\n- 定时任务可以在手机上管理：列出每个任务的计划、下次运行时间和上次结果；可以新建（空白或从模板）、编辑、暂停和删除。改动作为经过校验的账本提交，由 Git 同步推到 GitHub，mibook 下一次检查时生效；点开任务直接看它的历次运行，并可继续追问（#721）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.29/LedgerMobile-1.4.29-10429-SideStore.ipa",
-      "size": 43133263
+      "version": "1.4.31",
+      "versionDate": "2026-11-18T05:58:42Z",
+      "versionDescription": "## 新增\n- 没有账本时，打开 App 就是开账对话：可以直接接入已有的 Git 账本，也可以从零新建；选路、接 Git 都不需要模型，只有从零新建时才在对话里接上模型（#726）\n- 从零新建时，助手用卡片代替一连串追问：填期初余额和开始日期、勾选分类、选账本放在这台设备还是推到一个空的 Git 仓库、选平时导入哪些账单；建好前可以看每个将写入的文件（#726）\n- 新建的账本分成 main / accounts / opening 几个文件，只为选了的渠道准备导入规则（#726）\n- 在系统分享菜单里「发给账本助手」，直接用这些文件开一段新对话（#724）\n\n## 改进\n- 账本助手页更圆润：问题气泡、选项、改动卡片、工具折叠和输入框都换成圆角和液态玻璃（#726）\n- API Key 和仓库令牌只在原生卡片里填写，存进钥匙串，不会进入对话（#726）\n- 定时任务推送带上 App 图标和鸟鸣提示音（#725）；定时任务能从模型列表读取模型的上下文和输出上限（#723）\n\n## 修复\n- 点开账本助手的通知时 1.4.28 会闪退（#722）\n- 内置 Linux 的上游仓库下线后发版构建失败（1.4.30 未发布）（#727）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v1.4.31/LedgerMobile-1.4.31-10431-SideStore.ipa",
+      "size": 43367376
     }
   ],
   "news": []
