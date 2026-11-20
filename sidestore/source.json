@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "102",
+          "date": "2026-11-20T08:55:38Z",
+          "localizedDescription": "## 新增\n- 设置 > 外观 > 配色方案：可在暖纸、纯净（纯白 / 纯黑）、冷灰三套配色间切换，浅色与深色跟随系统（#735）\n- 图表配色随方案切换：纯净使用系统蓝、绿、红，冷灰使用靛蓝、青绿、玫红，暖纸保持原样（#735）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.2/LedgerMobile-0.1.2-102-SideStore.ipa",
+          "size": 43513579,
+          "sha256": "76b26887852be0447247a61dd8168c485746044f04778e6b5333d2161cefb83d",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "101",
           "date": "2026-11-19T13:19:31Z",
@@ -44,11 +54,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.1",
-      "versionDate": "2026-11-19T13:19:31Z",
-      "versionDescription": "## 新增\n- 开账助手会先列出内置账户、分类和导入配置供挑选，不再等着你逐条说明（#728）\n- 余额支持小数点和千位分隔写法，开账时按设备地区选择常用货币（#728）\n- TestFlight 版可直接开启 iCloud 同步：账本、账本助手历史、记忆和定时任务在同一 Apple 账户的设备间同步（#731）\n- 账本库和开账流程会列出 iCloud 里已有的账本（#731）\n\n## 改进\n- 账本助手的回答改用宋体，中文、英文和数字统一为衬线体（#733）\n\nSideStore 版仍通过「文件」里的文件夹同步；iCloud 同步只在付费团队签名的应用中提供。",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.1/LedgerMobile-0.1.1-101-SideStore.ipa",
-      "size": 43486359
+      "version": "0.1.2",
+      "versionDate": "2026-11-20T08:55:38Z",
+      "versionDescription": "## 新增\n- 设置 > 外观 > 配色方案：可在暖纸、纯净（纯白 / 纯黑）、冷灰三套配色间切换，浅色与深色跟随系统（#735）\n- 图表配色随方案切换：纯净使用系统蓝、绿、红，冷灰使用靛蓝、青绿、玫红，暖纸保持原样（#735）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.2/LedgerMobile-0.1.2-102-SideStore.ipa",
+      "size": 43513579
     }
   ],
   "news": []
