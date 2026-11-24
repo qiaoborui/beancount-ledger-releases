@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.6",
+          "buildVersion": "106",
+          "date": "2026-11-24T03:55:29Z",
+          "localizedDescription": "- 账本助手更流畅：Markdown 只解析一次，已写完的回答不再重绘（#740）\n\n- 输入框展开收起不再卡顿，关闭侧边栏不再闪出底部边缘（#740）\n\n- 右上角简化，菜单里可重新生成标题、重命名和打开助手设置（#740）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.6/LedgerMobile-0.1.6-106-SideStore.ipa",
+          "size": 43543454,
+          "sha256": "171b2aa2c242226de395ff66895fde4b6e72c56129d61d8693e41423afd2d809",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.5",
           "buildVersion": "105",
           "date": "2026-11-24T02:57:31Z",
@@ -74,11 +84,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.5",
-      "versionDate": "2026-11-24T02:57:31Z",
-      "versionDescription": "- 账本助手的思考和工具调用按轮次和回答穿插显示，运行中有微光扫过，状态切换淡入淡出（#739）\n\n- 新增设置 助手设置 > 显示 > 思考与工具：全部展开 / 收起思考（默认）/ 全部收起（#739）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.5/LedgerMobile-0.1.5-105-SideStore.ipa",
-      "size": 43522931
+      "version": "0.1.6",
+      "versionDate": "2026-11-24T03:55:29Z",
+      "versionDescription": "- 账本助手更流畅：Markdown 只解析一次，已写完的回答不再重绘（#740）\n\n- 输入框展开收起不再卡顿，关闭侧边栏不再闪出底部边缘（#740）\n\n- 右上角简化，菜单里可重新生成标题、重命名和打开助手设置（#740）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.6/LedgerMobile-0.1.6-106-SideStore.ipa",
+      "size": 43543454
     }
   ],
   "news": []
