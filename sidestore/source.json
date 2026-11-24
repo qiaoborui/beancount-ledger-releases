@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.9",
+          "buildVersion": "109",
+          "date": "2026-11-24T12:31:33Z",
+          "localizedDescription": "## 改进\n- 账本助手的历史侧栏改为原生实现，开合、拖动和返回更跟手，对话页缩成一张卡片（#743）\n- 对话列表滚动、流式回复跟随到底和键盘弹起收起更流畅（#743）\n- 助手开着时，底下的概览页不再跟着重算；首次显示中文和 emoji 不再卡顿（#743）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.9/LedgerMobile-0.1.9-109-SideStore.ipa",
+          "size": 43562329,
+          "sha256": "3ffb690c762f57d3d6d1e0281d6a6b5bf352a4177d66d6c6b7312d843d163e7c",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.8",
           "buildVersion": "108",
           "date": "2026-11-24T09:58:42Z",
@@ -104,11 +114,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.8",
-      "versionDate": "2026-11-24T09:58:42Z",
-      "versionDescription": "## 改进\n- 助手抽屉里的记忆、Skills、文件、终端等子页面改为在抽屉内打开，返回手势更顺手（#742）\n- 打开抽屉时页面缩成带圆角和阴影的卡片，顶栏标题同步模糊；修复关闭后出现的空白抽屉与分隔线（#742）\n- 助手改用新的浅色/深色系统配色，不再沿用纸张配色（#742）\n- 设置中新增「打开 App 时进入助手」（#742）\n- 列表滚动过程中也可以点「回到底部」（#742）\n\n## 修复\n- 修复键盘弹出时 Logo 与问候语跳动、悬浮的问题（#742）\n- 修复安全区与状态互相触发导致的界面卡死（#742）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.8/LedgerMobile-0.1.8-108-SideStore.ipa",
-      "size": 43560031
+      "version": "0.1.9",
+      "versionDate": "2026-11-24T12:31:33Z",
+      "versionDescription": "## 改进\n- 账本助手的历史侧栏改为原生实现，开合、拖动和返回更跟手，对话页缩成一张卡片（#743）\n- 对话列表滚动、流式回复跟随到底和键盘弹起收起更流畅（#743）\n- 助手开着时，底下的概览页不再跟着重算；首次显示中文和 emoji 不再卡顿（#743）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.9/LedgerMobile-0.1.9-109-SideStore.ipa",
+      "size": 43562329
     }
   ],
   "news": []
