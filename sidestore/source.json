@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.5",
+          "buildVersion": "105",
+          "date": "2026-11-24T02:57:31Z",
+          "localizedDescription": "- 账本助手的思考和工具调用按轮次和回答穿插显示，运行中有微光扫过，状态切换淡入淡出（#739）\n\n- 新增设置 助手设置 > 显示 > 思考与工具：全部展开 / 收起思考（默认）/ 全部收起（#739）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.5/LedgerMobile-0.1.5-105-SideStore.ipa",
+          "size": 43522931,
+          "sha256": "466d5b3c19f1b78da0ce27dff68fad3940dcdd6ef636acd7c048620f3a48de0c",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.4",
           "buildVersion": "104",
           "date": "2026-11-24T02:02:04Z",
@@ -64,11 +74,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.4",
-      "versionDate": "2026-11-24T02:02:04Z",
-      "versionDescription": "- 账本助手回复更顺滑：文字按帧匀速写出，新字逐个淡入（iOS 18 起），回答结束时不再跳一下（#738）\n\n- 回复写到一半时，粗体和行内代码不再先露出星号或反引号（#738）\n\n- 思考与工具调用行：运行中有一道微光扫过，计时和次数滚动变化，切换到下一个工具时淡入（#738）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.4/LedgerMobile-0.1.4-104-SideStore.ipa",
-      "size": 43526233
+      "version": "0.1.5",
+      "versionDate": "2026-11-24T02:57:31Z",
+      "versionDescription": "- 账本助手的思考和工具调用按轮次和回答穿插显示，运行中有微光扫过，状态切换淡入淡出（#739）\n\n- 新增设置 助手设置 > 显示 > 思考与工具：全部展开 / 收起思考（默认）/ 全部收起（#739）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.5/LedgerMobile-0.1.5-105-SideStore.ipa",
+      "size": 43522931
     }
   ],
   "news": []
