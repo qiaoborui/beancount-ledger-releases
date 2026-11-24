@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.4",
+          "buildVersion": "104",
+          "date": "2026-11-24T02:02:04Z",
+          "localizedDescription": "- 账本助手回复更顺滑：文字按帧匀速写出，新字逐个淡入（iOS 18 起），回答结束时不再跳一下（#738）\n\n- 回复写到一半时，粗体和行内代码不再先露出星号或反引号（#738）\n\n- 思考与工具调用行：运行中有一道微光扫过，计时和次数滚动变化，切换到下一个工具时淡入（#738）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.4/LedgerMobile-0.1.4-104-SideStore.ipa",
+          "size": 43526233,
+          "sha256": "5b29d9dc2d5db2da6448c4035ca59b64bd388a8cae9f0341b1219e061e42409f",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.2",
           "buildVersion": "102",
           "date": "2026-11-20T08:55:38Z",
@@ -54,11 +64,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.2",
-      "versionDate": "2026-11-20T08:55:38Z",
-      "versionDescription": "## 新增\n- 设置 > 外观 > 配色方案：可在暖纸、纯净（纯白 / 纯黑）、冷灰三套配色间切换，浅色与深色跟随系统（#735）\n- 图表配色随方案切换：纯净使用系统蓝、绿、红，冷灰使用靛蓝、青绿、玫红，暖纸保持原样（#735）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.2/LedgerMobile-0.1.2-102-SideStore.ipa",
-      "size": 43513579
+      "version": "0.1.4",
+      "versionDate": "2026-11-24T02:02:04Z",
+      "versionDescription": "- 账本助手回复更顺滑：文字按帧匀速写出，新字逐个淡入（iOS 18 起），回答结束时不再跳一下（#738）\n\n- 回复写到一半时，粗体和行内代码不再先露出星号或反引号（#738）\n\n- 思考与工具调用行：运行中有一道微光扫过，计时和次数滚动变化，切换到下一个工具时淡入（#738）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.4/LedgerMobile-0.1.4-104-SideStore.ipa",
+      "size": 43526233
     }
   ],
   "news": []
