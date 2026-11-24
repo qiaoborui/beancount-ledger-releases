@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.7",
+          "buildVersion": "107",
+          "date": "2026-11-24T07:52:11Z",
+          "localizedDescription": "- 历史侧边栏照 FlowDown 的手感重做：横拖超过 100pt 就直接弹开或收起，弹簧更顺；打开时聊天页缩成带圆角和阴影的浮动卡片（#741）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.7/LedgerMobile-0.1.7-107-SideStore.ipa",
+          "size": 43548816,
+          "sha256": "52b817b57f4f647fef41fa281bf8ce1d0b7db7d2c3c234273e2e34bd0db23a6e",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.6",
           "buildVersion": "106",
           "date": "2026-11-24T03:55:29Z",
@@ -84,11 +94,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.6",
-      "versionDate": "2026-11-24T03:55:29Z",
-      "versionDescription": "- 账本助手更流畅：Markdown 只解析一次，已写完的回答不再重绘（#740）\n\n- 输入框展开收起不再卡顿，关闭侧边栏不再闪出底部边缘（#740）\n\n- 右上角简化，菜单里可重新生成标题、重命名和打开助手设置（#740）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.6/LedgerMobile-0.1.6-106-SideStore.ipa",
-      "size": 43543454
+      "version": "0.1.7",
+      "versionDate": "2026-11-24T07:52:11Z",
+      "versionDescription": "- 历史侧边栏照 FlowDown 的手感重做：横拖超过 100pt 就直接弹开或收起，弹簧更顺；打开时聊天页缩成带圆角和阴影的浮动卡片（#741）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.7/LedgerMobile-0.1.7-107-SideStore.ipa",
+      "size": 43548816
     }
   ],
   "news": []
