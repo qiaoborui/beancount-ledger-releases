@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.8",
+          "buildVersion": "108",
+          "date": "2026-11-24T09:58:42Z",
+          "localizedDescription": "## 改进\n- 助手抽屉里的记忆、Skills、文件、终端等子页面改为在抽屉内打开，返回手势更顺手（#742）\n- 打开抽屉时页面缩成带圆角和阴影的卡片，顶栏标题同步模糊；修复关闭后出现的空白抽屉与分隔线（#742）\n- 助手改用新的浅色/深色系统配色，不再沿用纸张配色（#742）\n- 设置中新增「打开 App 时进入助手」（#742）\n- 列表滚动过程中也可以点「回到底部」（#742）\n\n## 修复\n- 修复键盘弹出时 Logo 与问候语跳动、悬浮的问题（#742）\n- 修复安全区与状态互相触发导致的界面卡死（#742）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.8/LedgerMobile-0.1.8-108-SideStore.ipa",
+          "size": 43560031,
+          "sha256": "5f97bb060712a4b2b0f25067ad9a9384d702cd0c947588bf11ab2abc68f48062",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.7",
           "buildVersion": "107",
           "date": "2026-11-24T07:52:11Z",
@@ -94,11 +104,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.7",
-      "versionDate": "2026-11-24T07:52:11Z",
-      "versionDescription": "- 历史侧边栏照 FlowDown 的手感重做：横拖超过 100pt 就直接弹开或收起，弹簧更顺；打开时聊天页缩成带圆角和阴影的浮动卡片（#741）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.7/LedgerMobile-0.1.7-107-SideStore.ipa",
-      "size": 43548816
+      "version": "0.1.8",
+      "versionDate": "2026-11-24T09:58:42Z",
+      "versionDescription": "## 改进\n- 助手抽屉里的记忆、Skills、文件、终端等子页面改为在抽屉内打开，返回手势更顺手（#742）\n- 打开抽屉时页面缩成带圆角和阴影的卡片，顶栏标题同步模糊；修复关闭后出现的空白抽屉与分隔线（#742）\n- 助手改用新的浅色/深色系统配色，不再沿用纸张配色（#742）\n- 设置中新增「打开 App 时进入助手」（#742）\n- 列表滚动过程中也可以点「回到底部」（#742）\n\n## 修复\n- 修复键盘弹出时 Logo 与问候语跳动、悬浮的问题（#742）\n- 修复安全区与状态互相触发导致的界面卡死（#742）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.8/LedgerMobile-0.1.8-108-SideStore.ipa",
+      "size": 43560031
     }
   ],
   "news": []
