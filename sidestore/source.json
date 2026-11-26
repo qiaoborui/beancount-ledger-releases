@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.10",
+          "buildVersion": "110",
+          "date": "2026-11-26T09:49:31Z",
+          "localizedDescription": "## 改进\n- 打开 app 直接进入账本助手，底栏改为只有图标的样式（#747）\n- 账本助手有了自己的角色「豆豆」（#752）\n- 产物页重新设计：大卡片实时预览、搜索排序，底部输入框可直接新建产物（#751）\n- 助手记忆改为分层整理，并与云端助手共享（#745）\n- 切换标签页时两个页面并排滑动，不再一页盖住另一页（#750）\n- 移除「一句话记账」和「智能分类」，由账本助手代替（#746）\n## 修复\n- 修复切换中英文键盘后助手输入框与键盘之间空出一截的问题（#744）\n- 修复助手页键盘弹起收起时输入框跳动、底栏闪现的问题（#748）",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.10/LedgerMobile-0.1.10-110-SideStore.ipa",
+          "size": 43428638,
+          "sha256": "e71f672ea4e94e58517f2b9232be0643e53463f92068911a979920effcf78281",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.9",
           "buildVersion": "109",
           "date": "2026-11-24T12:31:33Z",
@@ -114,11 +124,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.9",
-      "versionDate": "2026-11-24T12:31:33Z",
-      "versionDescription": "## 改进\n- 账本助手的历史侧栏改为原生实现，开合、拖动和返回更跟手，对话页缩成一张卡片（#743）\n- 对话列表滚动、流式回复跟随到底和键盘弹起收起更流畅（#743）\n- 助手开着时，底下的概览页不再跟着重算；首次显示中文和 emoji 不再卡顿（#743）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.9/LedgerMobile-0.1.9-109-SideStore.ipa",
-      "size": 43562329
+      "version": "0.1.10",
+      "versionDate": "2026-11-26T09:49:31Z",
+      "versionDescription": "## 改进\n- 打开 app 直接进入账本助手，底栏改为只有图标的样式（#747）\n- 账本助手有了自己的角色「豆豆」（#752）\n- 产物页重新设计：大卡片实时预览、搜索排序，底部输入框可直接新建产物（#751）\n- 助手记忆改为分层整理，并与云端助手共享（#745）\n- 切换标签页时两个页面并排滑动，不再一页盖住另一页（#750）\n- 移除「一句话记账」和「智能分类」，由账本助手代替（#746）\n## 修复\n- 修复切换中英文键盘后助手输入框与键盘之间空出一截的问题（#744）\n- 修复助手页键盘弹起收起时输入框跳动、底栏闪现的问题（#748）",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.10/LedgerMobile-0.1.10-110-SideStore.ipa",
+      "size": 43428638
     }
   ],
   "news": []
