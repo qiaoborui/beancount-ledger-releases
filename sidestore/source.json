@@ -34,6 +34,16 @@
       },
       "versions": [
         {
+          "version": "0.1.11",
+          "buildVersion": "111",
+          "date": "2026-11-27T03:56:44Z",
+          "localizedDescription": "## 改进\n- 新的默认主题「素白」：近白底、灰色圆角分组、只用黑白灰，收入用绿色；深色是纯净的深黑（#753）\n- 全 App 改用系统字体（SF Pro + 苹方），账本助手的回答也换成无衬线字体（#753）\n- 选中态、按钮、开关改成胶囊样式（#753）\n- 设置页重新设计：圆角分组卡片、每行单色图标（#753）\n- 暖纸、纯净、冷灰仍可在 设置 > 外观 > 配色方案 里选择",
+          "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.11/LedgerMobile-0.1.11-111-SideStore.ipa",
+          "size": 43429162,
+          "sha256": "9953f6d4df3ea9e45a2f7be08cbc5448eb9822dd6ba6a38c26039b814cd99fb3",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.10",
           "buildVersion": "110",
           "date": "2026-11-26T09:49:31Z",
@@ -124,11 +134,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.10",
-      "versionDate": "2026-11-26T09:49:31Z",
-      "versionDescription": "## 改进\n- 打开 app 直接进入账本助手，底栏改为只有图标的样式（#747）\n- 账本助手有了自己的角色「豆豆」（#752）\n- 产物页重新设计：大卡片实时预览、搜索排序，底部输入框可直接新建产物（#751）\n- 助手记忆改为分层整理，并与云端助手共享（#745）\n- 切换标签页时两个页面并排滑动，不再一页盖住另一页（#750）\n- 移除「一句话记账」和「智能分类」，由账本助手代替（#746）\n## 修复\n- 修复切换中英文键盘后助手输入框与键盘之间空出一截的问题（#744）\n- 修复助手页键盘弹起收起时输入框跳动、底栏闪现的问题（#748）",
-      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.10/LedgerMobile-0.1.10-110-SideStore.ipa",
-      "size": 43428638
+      "version": "0.1.11",
+      "versionDate": "2026-11-27T03:56:44Z",
+      "versionDescription": "## 改进\n- 新的默认主题「素白」：近白底、灰色圆角分组、只用黑白灰，收入用绿色；深色是纯净的深黑（#753）\n- 全 App 改用系统字体（SF Pro + 苹方），账本助手的回答也换成无衬线字体（#753）\n- 选中态、按钮、开关改成胶囊样式（#753）\n- 设置页重新设计：圆角分组卡片、每行单色图标（#753）\n- 暖纸、纯净、冷灰仍可在 设置 > 外观 > 配色方案 里选择",
+      "downloadURL": "https://github.com/qiaoborui/beancount-ledger-releases/releases/download/v0.1.11/LedgerMobile-0.1.11-111-SideStore.ipa",
+      "size": 43429162
     }
   ],
   "news": []
